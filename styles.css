@@ -1,20 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
 body {
     color: white;
-    background: black;
+    background: white;
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
     margin-bottom: 100px;
 }
 
 header {
-    border-bottom: solid 2px rgb(42, 122, 228);
+    border-bottom: solid 2px #E6884F;
     padding: 20px;
-    font-size: 32px;
-    color: rgb(42, 122, 228);
+    font-size: 38px;
+    color: #E6884F;
+    text-align: center;
 }
 
 .chamada {
-    background: rgb(184, 156, 213);
+    color: #E6884F;
+    background: #67DFE6;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -23,6 +41,7 @@ header {
 
 .chamada-texto {
     margin-right: 5%;
+    margin-top: 6%;
 }
 
 h1 {
@@ -43,6 +62,8 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 50px;
+    background-color: white;
+    padding-bottom: 20px;
 }
 
 .categoria-videos img {
@@ -56,5 +77,23 @@ p {
 }
 
 .categoria h2 {
-    color: rgb(42, 122, 228);
+    color: #E6884F;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+footer{
+    background-color: #E6884F; /* Cor de fundo escura para contraste */
+    color: #000000; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+    position: relative; /* Posição relativa para ajustar a posição */
+    bottom: 0; /* Alinha o footer ao fundo da página */
+    width: 100%; /* Largura total da página */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+footer > p > a {
+    color: aqua;
+    text-decoration: none;
 }
