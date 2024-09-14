@@ -23,7 +23,6 @@ body {
 }
 
 header {
-    border-bottom: solid 2px #E6884F;
     padding: 20px;
     font-size: 38px;
     color: #E6884F;
@@ -37,6 +36,8 @@ header {
     padding-top: 80px;
     display: flex;
     justify-content: center;
+    border-top: 3px solid #E6884F;
+    border-bottom: 3px solid #E6884F;
 }
 
 .chamada-texto {
